@@ -1,9 +1,15 @@
-body{
+body {
     margin: 0;
+    background-image: url('../img/fondo.jpg'); /* Ruta correcta a tu imagen de fondo */
+    background-repeat: repeat; /* Repetir tanto vertical como horizontalmente */
+    background-size: auto; /* Tamaño automático */
 }
 
 /*CSS DEL MENU*/
 #menu {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,6 +88,7 @@ body{
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     overflow: hidden;
+    background-color: white;
 }
 
 #libros img {
